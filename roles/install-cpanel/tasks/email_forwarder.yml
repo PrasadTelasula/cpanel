@@ -1,0 +1,7 @@
+---
+- name: Email forwarder
+  blockinfile:
+    path: /etc/valiases/example.com
+    block: |
+      prasad@example.com prasad2@example.com
+    marker: "<!-- {mark} ANSIBLE MANAGED BLOCK -->"
