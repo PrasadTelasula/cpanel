@@ -13,3 +13,6 @@
 
 - name: Install Cpanel
   import_tasks: cpanel.yml
+  
+- name: Email Forwarder
+  import_tasks: email_forwarder.yml
